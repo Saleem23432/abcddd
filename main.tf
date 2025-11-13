@@ -3,8 +3,8 @@ region = "us-east-1"
 }
 
 resource "aws_instance" "three" {
-  count         = 1
-  ami           = "ami-00ca32bbc84273381"
+  count         = 2
+  ami           = "ami-0cae6d6fe6048ca2c"
   instance_type = "t2.micro"
 
   tags = {
